@@ -1,2 +1,6 @@
-# Metodología de la programación
+# Metodología de la programación 🦥
+
 Universidad Politécnica de Aguascalientes
+
+
+![alt text](image.png)
