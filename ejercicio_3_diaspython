@@ -1,0 +1,17 @@
+age=18
+altura=1.75
+print()
+print (type(int(age)),'El valor de la edad es de clase: ', int, age) 
+print (type(float(altura)),'El valor de la edad es de clase: ', float, altura) 
+print('Numero complejo: ', 25j)
+
+baseTriangulo = int(input('Ingrese la base del triangulo: '))
+alturaTriangulo = int(input('Ingrese la altura del triangulo: '))
+areaDelTriangulo = baseTriangulo * alturaTriangulo / 2
+print('El area del triangulo es de: ', areaDelTriangulo)
+ladoATriangulo = int(input('Ingrese el lado a del triangulo: '))
+ladoBTriangulo = int(input('Ingrese el lado b del triangulo: '))
+ladoCTriangulo = int(input('Ingrese el lado c del triangulo: '))
+perimetroTriangulo = ladoATriangulo + ladoBTriangulo + ladoCTriangulo
+print('El perimetro del triangulo es de: ', perimetroTriangulo) 
+
