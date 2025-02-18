@@ -4,24 +4,45 @@ print()
 print (type(int(age)),'El valor de la edad es de clase: ', int, age) 
 print (type(float(altura)),'El valor de la edad es de clase: ', float, altura) 
 print('Numero complejo: ', 25j)
+
 ##Calcular el area de un triangulo
 baseTriangulo = float(input('Ingrese la base del triangulo: '))
 alturaTriangulo = float(input('Ingrese la altura del triangulo: '))
 areaDelTriangulo = baseTriangulo * alturaTriangulo / 2
 print('El area del triangulo es de: ', areaDelTriangulo)
+
 ##Calcular el perimetro de un triangulo
 ladoATriangulo = float(input('Ingrese el lado a del triangulo: '))
 ladoBTriangulo = float(input('Ingrese el lado b del triangulo: '))
 ladoCTriangulo = float(input('Ingrese el lado c del triangulo: '))
 perimetroTriangulo = ladoATriangulo + ladoBTriangulo + ladoCTriangulo
 print('El perimetro del triangulo es de: ', perimetroTriangulo)
+
 ##Calcular longitud y ancho de un rectangulo
 longitudRectangulo = float(input('Ingresa la longitud del rectangulo: '))
 anchoRectangulo = float(input('Ingrese el ancho del rectangulo: '))
+
 ##Calcular area y perimetro del rectangulo
 areaRectangulo = longitudRectangulo * anchoRectangulo
 perimetroRectangulo = longitudRectangulo + anchoRectangulo + longitudRectangulo + anchoRectangulo
 print ('El area del rectangulo es de: ', areaRectangulo)
 print ('El perimetro del rectangulo es de: ', perimetroRectangulo)
 
+##Area y circunferencia de un circulo
+radio = float(input('ingresa el radio de un circulo: '))
+diametro = radio * 2
+areaDelCirculo = 3.1416* radio**2
+print('El area del circulo es: ', areaDelCirculo)
+circunferenciaDelCirculo = 3.1416 * diametro
+print ('La circunferencia del circulo es de: ', circunferenciaDelCirculo)
 
+##Pendiente de interseccion con el eje x and y
+##Para calcular los ejes de interseccion se debe despejar en la ecuacion la x, y 
+x = 0
+yc=2*x-2
+print("El valor de y es: ", yc)
+
+y = 0
+xc = (y + 2)/2
+
+print('El valor de la pendiente es: (' + str(xc) +' , '+ str(yc)+')')
