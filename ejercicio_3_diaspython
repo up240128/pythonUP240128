@@ -4,14 +4,24 @@ print()
 print (type(int(age)),'El valor de la edad es de clase: ', int, age) 
 print (type(float(altura)),'El valor de la edad es de clase: ', float, altura) 
 print('Numero complejo: ', 25j)
-
-baseTriangulo = int(input('Ingrese la base del triangulo: '))
-alturaTriangulo = int(input('Ingrese la altura del triangulo: '))
+##Calcular el area de un triangulo
+baseTriangulo = float(input('Ingrese la base del triangulo: '))
+alturaTriangulo = float(input('Ingrese la altura del triangulo: '))
 areaDelTriangulo = baseTriangulo * alturaTriangulo / 2
 print('El area del triangulo es de: ', areaDelTriangulo)
-ladoATriangulo = int(input('Ingrese el lado a del triangulo: '))
-ladoBTriangulo = int(input('Ingrese el lado b del triangulo: '))
-ladoCTriangulo = int(input('Ingrese el lado c del triangulo: '))
+##Calcular el perimetro de un triangulo
+ladoATriangulo = float(input('Ingrese el lado a del triangulo: '))
+ladoBTriangulo = float(input('Ingrese el lado b del triangulo: '))
+ladoCTriangulo = float(input('Ingrese el lado c del triangulo: '))
 perimetroTriangulo = ladoATriangulo + ladoBTriangulo + ladoCTriangulo
-print('El perimetro del triangulo es de: ', perimetroTriangulo) 
+print('El perimetro del triangulo es de: ', perimetroTriangulo)
+##Calcular longitud y ancho de un rectangulo
+longitudRectangulo = float(input('Ingresa la longitud del rectangulo: '))
+anchoRectangulo = float(input('Ingrese el ancho del rectangulo: '))
+##Calcular area y perimetro del rectangulo
+areaRectangulo = longitudRectangulo * anchoRectangulo
+perimetroRectangulo = longitudRectangulo + anchoRectangulo + longitudRectangulo + anchoRectangulo
+print ('El area del rectangulo es de: ', areaRectangulo)
+print ('El perimetro del rectangulo es de: ', perimetroRectangulo)
+
 
