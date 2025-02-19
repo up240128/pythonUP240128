@@ -44,5 +44,31 @@ print("El valor de y es: ", yc)
 
 y = 0
 xc = (y + 2)/2
-
+print("El valor de x es: ", xc)
 print('El valor de la pendiente es: (' + str(xc) +' , '+ str(yc)+')')
+
+## Encontrar la pendiente y y la distancia euclidiana entre el punto (2, 2) y el punto (6, 10).
+x1 = 2
+y1 =2
+x2 = 6
+y2 = 10
+m = (y2-y1)/(x2-x1)
+print ('La pendiente es: ', m)
+d = ((x2 - x1)**2 + (y2 - y1)**2)
+res = d**0.5
+print ('La distancia euclidiana es de: ', res)
+
+##Comparacion de las pendientes
+
+
+## Calcula el valor de y (y = x^2 + 6x + 9). 
+x = 0
+y = x**2 + 6*x + 9
+print ('El valor de la variabale y es: ', y)
+xuno = 3
+yuno = xuno**2 + 6*xuno + 9
+print ('El valor de la variabale y es: ', yuno)
+xdos = 5
+ydos = xdos**2 + 6*xdos + 9
+print ('El valor de la variabale y es: ', ydos)
+
