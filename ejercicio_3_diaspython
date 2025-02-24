@@ -72,3 +72,29 @@ xdos = 5
 ydos = xdos**2 + 6*xdos + 9
 print ('El valor de la variabale y es: ', ydos)
 
+##Logitud palabra
+print('El numero de letras que tiene dragon es: ', len('dragon'))
+print('El numero de letras que tiene python es: ', len('python'))  
+print(len('dragon') != len('python'))  # False
+
+##comprobar si 'on' se encuentra tanto en 'python' como en 'dragon'
+palabra1 = 'python'
+palabra2 = 'drangon'
+if 'on' in palabra1 and 'on' in palabra2:
+    print("'on' se encuentra en ambos 'python' y 'dragon'")
+else:
+    print("'on' no se encuentra en ambos 'python' y 'dragon'")
+
+##Utilice el operador in para comprobar si hay jerga en la oración.
+frase1 = 'Espero que este curso no esté lleno de jerga'
+print('jerga in Espero que este curso no esté lleno de jerga', 'jerga' in 'Espero que este curso no esté lleno de jerga')
+
+##No hay "on" tanto en dragon como en python
+print('ON in dragon', 'ON' in 'dragon')
+print('ON in python', 'ON' in 'python')
+
+##Longitud de la palabra python y convertir la variabale en flotante
+palabras = 'python'
+print('El numero de letras que tiene python es: ', len('python'))
+print (type(str(palabras)))
+print (type(float(palabras)))
