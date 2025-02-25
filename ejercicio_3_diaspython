@@ -93,8 +93,40 @@ print('jerga in Espero que este curso no esté lleno de jerga', 'jerga' in 'Espe
 print('ON in dragon', 'ON' in 'dragon')
 print('ON in python', 'ON' in 'python')
 
-##Longitud de la palabra python y convertir la variabale en flotante
+#Longitud de la palabra python y convertir la variabale en flotante
 palabras = 'python'
 print('El numero de letras que tiene python es: ', len('python'))
-print (type(str(palabras)))
-print (type(float(palabras)))
+print (type(float(len(palabras))))
+
+##Los números pares son divisibles por 2 y el resto es cero
+numero1 = 4
+numero2 = 6
+numero3 = 7
+numero4 = 25
+frase1 = 'Divisible entre 2'
+frase2 = 'No es divisible entre 2 y el resultado es 0 '
+sum = numero1/2
+print('El numero es: ', frase1, sum )
+sum2 = numero2/2
+print('El numero es: ', frase1, sum2 )
+sum3 = numero3/2
+print('El numero es: ', frase2, 0)
+sum4 = numero4/2
+print('El numero es: ', frase2, 0)
+
+##Comprueba si la división del piso de 7 por 3 es igual al valor int convertido de 2,7.
+num = 7
+div = 3
+division = num/div
+print(type(int(division)))
+print('El resultado de la division no es 2,7: ', not True)
+print('El valor de la division es: ', int(division))
+
+##Comprueba si el tipo de '10' es igual al tipo de 10
+print('El tipo de 10 es igual al tipo de 10: ', type(10) == type(10))
+
+##Comprueba si int('9.8') es igual a 10
+valor = '9.8'
+print(type(float(valor)))
+print('El valor del numero es: ', valor)
+print('El valor de 9.8 es igual a 10: ', not True)
