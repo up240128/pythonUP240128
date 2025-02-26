@@ -113,3 +113,71 @@ print(challenge.rfind('porque')) #49
 ##Elimina la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque porque es una conjunción' 
 challenge = 'No puedes terminar una oración con porque porque porque es una conjunción'
 print(challenge.replace('No puedes terminar una oración con porque porque porque es una conjunción', 'No puedes terminar una oración con es una conjunción'))
+
+##Encuentra la posición de la primera aparición de la palabra 'porque' en la siguiente oración: 'No puedes terminar una oración con porque porque porque es una conjunción'
+challenge = 'No puedes terminar una oración con porque porque porque es una conjunción'
+sub_string = 'porque'
+print(challenge.index(sub_string))#35
+
+##Elimina la frase 'porque porque porque' en la siguiente oración: 'No puedes terminar una oración con porque porque porque es una conjunción' 
+challenge = 'No puedes terminar una oración con porque porque porque es una conjunción'
+print(challenge.replace('No puedes terminar una oración con porque porque porque es una conjunción', 'No puedes terminar una oración con es una conjunción'))
+
+##''Coding For All' comienza con una subcadena Coding 
+frasesita = 'Coding For All'
+print ('la frase de la variable frasesita comienza con la palabra Coding:', frasesita.startswith('Coding'))
+
+##'Coding For All' termina con una subcadena 'coding 'frasesita = 'Coding For All'
+sentence = 'Coding For All'
+print ('la frase de la variable sentence comienza con la palabra Coding:', sentence.endswith('Coding'))
+
+##'Codificación para todos', elimina los espacios finales izquierdo y derecho en la cadena dada.
+sentence1 = 'Codificaciónparatodos'
+sentence1 = sentence1.strip()
+print('La frase eliminando espacios es: ',sentence1)
+
+##Cuál de las siguientes variables devuelve Verdadero cuando usamos el método isidentifier()?
+##30 días de Python
+##Treinta días de Python
+challenge = '30DaysOfPython'
+print(challenge.isidentifier()) # False, because it starts with a number
+challenge = 'thirty_days_of_python'
+print(challenge.isidentifier()) # True
+
+##La siguiente lista contiene los nombres de algunas bibliotecas de Python: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Únase a la lista con un hash con una cadena de espacios.
+language = 'Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon'
+Django,Flask,Bottle,Pyramid,Falcon = language 
+print(Django) 
+print(Flask) 
+print(Bottle) 
+print(Pyramid) 
+print(Falcon) 
+
+##Utilice la secuencia de escape de nueva línea para separar las siguientes oraciones.
+'I am enjoying this challenge. I just wonder what is next.'
+print('I am enjoying this challenge. \nI just wonder what is next.')
+
+##Utilice una secuencia de escape de tabulación para escribir las siguientes líneas
+print('Name\tAge\tCountry\tCity')
+print('Asabeneh\t250\tFinland\tHelsinki')
+
+##Utilice el método de formato de cadena para mostrar lo siguiente:
+radius = 10
+area = 3.14 * radius ** 2
+print('The area of a circle with radius %d is %d meters square.' % (radius, area))
+
+##Realice lo siguiente utilizando métodos de formato de cadena:
+#8 + 6 = 14
+#8 - 6 = 2
+#8 * 6 = 48
+#8 / 6 = 1.33
+#8 % 6 = 2
+#8 // 6 = 1
+#8 ** 6 = 262144
+print(f"8 + 6 = {8 + 6}")
+print(f"8 - 6 = {8 - 6}")
+print(f"8*6 = {8*6}")
+print(f"8/6 = {8/6}")
+print(f"8%6 = {2}")
+print(f"8//6 = {1}")
+print(f"8**6 = {262144}")
