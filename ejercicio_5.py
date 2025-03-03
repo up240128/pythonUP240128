@@ -59,4 +59,72 @@ print ('Las empresas modificadas son: ', empresas)
 empresas = 'Facebook' + ' ' + ' ' + 'Google'  + ' ' + 'Microsoft' + ' '  + 'Apple' + ' ' +  'IBM' + ' ' +  'Oracle'  + ' ' +  'Amazon'
 print( empresas.upper())  
 
-#14
+#14 Unir it_companies con una cadena '#; '
+empresas = 'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'
+print('#; '.join(empresas))
+
+#15 Comprueba si una determinada empresa existe en la lista it_companies.
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print('temu in empresas', 'temu' in 'empresas')
+print('CocaCola in empresas', 'CocaCola' in 'empresas')
+
+#16 Ordena la lista en orden ascendente  
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+print(sorted(empresas))             
+
+#17 Invierta la lista en orden descendente utilizando el método reverse()
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+empresas.sort()
+print(empresas)             
+empresas.sort(reverse=True)
+print(empresas) 
+
+#18 Separa las primeras 3 empresas de la lista.
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'] 
+empresas.pop(6)
+empresas.pop(5)
+empresas.pop(4)
+empresas.pop(3)
+print(empresas)
+
+#19 Elimina las últimas 3 empresas de la lista.
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'] 
+empresas.pop(6)
+empresas.pop(5)
+empresas.pop(4)
+print(empresas)
+
+#20 Elimina de la lista las empresas de TI intermedias
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+empresas.remove('Microsoft')
+empresas.remove('Apple')
+empresas.remove('IBM')
+print(empresas)
+
+#21 Eliminar la primera empresa de TI de la lista
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'] 
+empresas.pop(0)
+print(empresas)
+
+#22 Eliminar la o las empresas de TI intermedias de la lista
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'] 
+empresas.pop(3)
+print(empresas)
+
+#23 Eliminar la última empresa de TI de la lista
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'] 
+empresas.pop(6)
+print(empresas)
+
+#24 Eliminar todas las empresas de TI de la lista
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+empresas.remove('Facebook')
+empresas.remove('Google')
+empresas.remove('Microsoft')
+empresas.remove('Apple')
+empresas.remove('IBM')
+empresas.remove('Oracle')
+empresas.remove('Amazon')
+print(empresas)
+
+#25 Destruir la lista de empresas de TI
