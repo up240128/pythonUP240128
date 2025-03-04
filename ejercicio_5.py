@@ -144,3 +144,13 @@ back_end = ['Node','Express', 'MongoDB']
 front_end.extend(back_end)
 print(front_end)
 
+#27 Después de unir las listas en la pregunta 26. Copie la lista unida y asígnela a una variable full_stack, luego inserte Python y SQL después de Redux.
+Unir_listas = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+nueva_lista = Unir_listas.copy()
+nueva_lista.insert(5, 'Python') #insertar elemento en la quinta posicion
+nueva_lista.insert(6, 'SQL') #insertar elemento en ls sexta posicion
+print("La lista con Python y SQL incluidos es:",nueva_lista)
+
+##NIVEL 2
+#1 La siguiente es una lista de 10 estudiantes por edades:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
