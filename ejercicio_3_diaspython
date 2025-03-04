@@ -130,3 +130,15 @@ valor = '9.8'
 print(type(float(valor)))
 print('El valor del numero es: ', valor)
 print('El valor de 9.8 es igual a 10: ', not True)
+
+##Escriba un script que solicite al usuario que ingrese horas y tarifa por hora. ¿Cómo calcular el salario de la persona?
+horas = float(input('Ingrese las horas trabajadas: '))
+tarifa = float(input('Ingrese la tarifa por hora: '))
+salario = horas * tarifa
+print('El salario de la persona es de: ', salario)
+
+##Escriba un script que solicite al usuario que ingrese la cantidad de años. Calcule la cantidad de segundos que puede vivir una persona. Suponga que una persona puede vivir cien años.
+años = float(input('Ingrese la cantidad de años: '))
+segundos = años * 365 * 24 * 60 * 60
+print('La cantidad de segundos que puede vivir una persona es de: ', segundos)
+

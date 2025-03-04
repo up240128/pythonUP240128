@@ -128,3 +128,14 @@ empresas.remove('Amazon')
 print(empresas)
 
 #25 Destruir la lista de empresas de TI
+empresas = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
+empresas.pop(6)
+empresas.pop(5)
+empresas.pop(4)
+empresas.pop(3)
+empresas.pop(2)
+empresas.pop(1)
+empresas.pop(0)
+print(empresas)
+
+#
