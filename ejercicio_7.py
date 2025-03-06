@@ -75,7 +75,3 @@ print(st1)
 ##LEVEL 3
 #1 Convierte las edades en un conjunto y compara la longitud de la lista y el conjunto, ¿cuál es más grande?
 edades = [22, 19, 24, 25, 26, 24, 25, 24]
-edades = set(edades)
-print(edades)
-print(len(edades))
-print(len(edades) < len(edades))
