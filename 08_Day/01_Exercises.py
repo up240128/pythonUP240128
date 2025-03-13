@@ -128,3 +128,20 @@ person = {
 person.pop('age')
 person.pop('last_name')
 print(person)
+
+#11 Eliminar uno de los diccionarios
+person = {
+    'first_name':'Dariana',
+    'last_name':'Villalpando Duron',
+    'age':18,
+    'country':'Aguscalientes',
+    'is_married':False,
+    'skills':['Python'],
+    'address':{
+        'street':'Space street',
+        'zipcode':'02210'
+    }
+    }
+animales = {'perro', 'gato', 'vaca','gallo', 'leon'}
+del person
+print(animales)
