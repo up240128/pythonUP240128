@@ -22,3 +22,6 @@ frase1 = 'Soy profesor y me encanta inspirar y enseñar a la gente'
 frsemod = frase1.split()
 print("Las palabras en la oracion son:", len(set(frsemod)))
 print ("Las palabras en la oracion son:", frsemod)
+
+#REVISADO
+print("Revisado")

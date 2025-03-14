@@ -67,3 +67,6 @@ paises1 = ['China', 'Rusia', 'EE. UU.', 'Finlandia', 'Suecia', 'Noruega', 'Dinam
 all_paises1 = paises1[2:6]
 print('Los primeros tres paises son:', paises1[0:3])
 print('Los paises escandinavos son:', all_paises1)
+
+#REVISADO
+print("Revisado")
