@@ -48,3 +48,6 @@ print('Estonia' in nordic_countries)
 nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 'Iceland' in nordic_countries
 print('Iceland' in nordic_countries)
+
+#REVISADO
+print("Revisado")
