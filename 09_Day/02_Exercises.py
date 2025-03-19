@@ -17,7 +17,26 @@ verano = 'Junio, julio, agosto'
 otono = 'septiembre, octubre, noviembre'
 invierno = ' Diciembre, enero, febrero'
 primavera = 'Marzo, abril, mayo'
-print('verano') if 'Junio, julio, agosto' > 'septiembre, octubre, noviembre' else print('otono')
-print('invierno') if 'Diciembre, enero, febrero' > 'Marzo, abril, mayo' else print ('primavera')
+if mes in verano:
+    print('La estacion es verano')
+elif mes in otono:
+    print ('La estacion es otono')
+elif mes in invierno:
+    print ('La estacion es invierno')
+elif mes in primavera:
+    print('La estacion es primavera')
+
+#3 La siguiente lista contiene algunas frutas:
+listafrutas =  'banana', 'orange', 'mango', 'lemon'
+fruta1 = 'fresa'
+fruta2 = 'sandia'
+fruta3 = 'banana'
+if fruta2 in listafrutas:
+    print('las frutas se encuentra en la lista: ', listafrutas , fruta2)
+elif fruta1 in listafrutas:
+    print('La fruta no se encuentra en la lista: ',listafrutas, fruta1)
+elif fruta3 in listafrutas:
+    print ('La fruta no se encuentra: ',listafrutas, fruta2)
 
 
+   
