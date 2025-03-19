@@ -31,12 +31,14 @@ listafrutas =  'banana', 'orange', 'mango', 'lemon'
 fruta1 = 'fresa'
 fruta2 = 'sandia'
 fruta3 = 'banana'
-if fruta2 in listafrutas:
-    print('las frutas se encuentra en la lista: ', listafrutas , fruta2)
-elif fruta1 in listafrutas:
-    print('La fruta no se encuentra en la lista: ',listafrutas, fruta1)
-elif fruta3 in listafrutas:
-    print ('La fruta no se encuentra: ',listafrutas, fruta2)
+if 'fresa' in listafrutas:
+    print('las frutas no se encuentra en la lista: ', listafrutas , fruta2)
+elif 'banana' in listafrutas:
+    print('La fruta se encuentra en la lista: ',listafrutas, fruta3)
+elif 'banana' in listafrutas:
+    print ('La fruta no se encuentra en la lista: ',listafrutas, fruta2)
+
+
 
 
    
